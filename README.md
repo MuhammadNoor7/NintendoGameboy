@@ -51,10 +51,10 @@ Provides the interface, aggregated by WordleGame for navigation.
 Relationships indicate composition and usage, ensuring WordleGame orchestrates all components.
 
 
-#e)Sound Class:
+# e)Sound Class:
 Composes audio buffers and sounds (e.g., StartingSound, snakeEatingSound), used across GameBoy and games to play event-specific sounds like "eat.wav" or "tiledrop.wav".
 
-#f)Other Classes (HangmanGame, etc.):
+# f)Other Classes (HangmanGame, etc.):
 Included but not detailed here, following similar inheritance and composition patterns.
 
-.The diagram uses arrows to denote inheritance (e.g., SnakeGame → Game) and composition/aggregation (e.g., GameBoy → Game*), illustrating how classes interact. This structure supports modularity, allowing independent development and testing of each game while maintaining a unified GameBoy interface, with sound effects enhancing user feedback at critical events.
+The diagram uses arrows to denote inheritance (e.g., SnakeGame → Game) and composition/aggregation (e.g., GameBoy → Game*), illustrating how classes interact. This structure supports modularity, allowing independent development and testing of each game while maintaining a unified GameBoy interface, with sound effects enhancing user feedback at critical events.
